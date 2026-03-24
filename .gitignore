@@ -1,5 +1,8 @@
 # Executables
 a.out
+ex00/Scalar
+ex01/Serializer
+ex02/RealType
 # Build artifacts
 */.build/*
 

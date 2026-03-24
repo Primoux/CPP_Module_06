@@ -1,6 +1,6 @@
 .PHONY : all re fclean clean run
 
-NAME			= a.out
+NAME			= Scalar
 
 MAKEFLAGS		+= -j $$(nproc)
 
