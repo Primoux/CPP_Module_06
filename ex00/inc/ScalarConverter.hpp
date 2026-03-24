@@ -6,17 +6,12 @@
 class ScalarConverter
 {
   private:
-	
+	ScalarConverter();
+	~ScalarConverter();
+	ScalarConverter(ScalarConverter const &original);
+	ScalarConverter &operator=(ScalarConverter const &other);
 
   public:
-	// CONSTRUCTOR
-	// ScalarConverter();
-	// ~ScalarConverter();
-	// ScalarConverter(ScalarConverter const &original);
-
-	// OPERATOR
-	// ScalarConverter &operator=(ScalarConverter const &other);
-	// MEMBER FUNCTION
 	static void convert(std::string const &s);
 };
 // std::ostream &operator<<(std::ostream &o, const ScalarConverter &obj);
